@@ -9,9 +9,12 @@ import Promesa from './promises/MyPromises.jsx'
 //import MyPromisesRace from './promises/MyPromisesRace.jsx'
 //import MyFetchsAPIs from './fetch/MyFetchAPIs.jsx'
 import MyFetchsAPIs from './fetch/MyFetchs.jsx'
+import MyFetchPut from './fetch/MyFetchPut.jsx'
+import MyFetchPost from './fetch/MyFetchPost.jsx'
+import MyFetchBlob from './fetch/MyFetchBlob.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MyFetchsAPIs/>
+    <MyFetchBlob/>
   </StrictMode>,
 )
