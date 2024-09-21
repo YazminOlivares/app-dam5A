@@ -22,6 +22,6 @@ import { Formularios } from './components/Formularios.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Usuarios/>
+    <Formularios/>
   </StrictMode>
 )
