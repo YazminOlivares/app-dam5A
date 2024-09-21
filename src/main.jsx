@@ -18,6 +18,7 @@ import { Contador } from './components/Contador.jsx'
 import { Login } from './components/Login.jsx'
 import { ContadorHook } from './components/ContadorHook.jsx'
 import { Usuarios } from './components/Usuarios.jsx'
+import { Formularios } from './components/Formularios.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
